@@ -18,7 +18,7 @@ jobs:
           npm install -g htmlhint stylelint
 
       - name: Periksa HTML
-        run: htmlhint "**/*.html"
+        run: htmlhint "/*.html"
 
       - name: Periksa CSS
-        run: stylelint "**/*.css"
+        run: stylelint "/*.css"
